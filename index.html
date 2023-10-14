@@ -4,17 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
 
 <body>
 
-    <label for="group">Group members</label><br>
-    <textarea name="group" id="group" cols="30" rows="15"></textarea><br>
-    <label for="amount">Group amount</label><br>
-    <input name="amount" id="amount"><br>
-    <button onclick="saveList()">Run</button>
+    <div id="venstre">
+        <label for="group">Group members</label><br>
+        <textarea name="group" id="group" cols="30" rows="15"></textarea><br>
+        <label for="amount">Group amount</label><br>
+        <input name="amount" id="amount"><br>
+        <button onclick="saveList()">Run</button>
+        
+    </div>
+    <div id="høgre">
+        <textarea name="output" id="output" cols="30" rows="10"></textarea>
+    </div>
     <script type="text/javascript" src="JavaScript/RanTeam.js"></script>
 </body>
 
